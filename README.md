@@ -6,7 +6,7 @@
 # Animated download button  
   
 
-This is a cool effect and animation for download buttons. Useful and without empty lines, let's count, there are 60 lines in all three languages. I hope you like it ❤️✌🏻.  
+This is a cool effect and animation for download buttons. Useful and without empty lines, let's count, there are 60 lines. I hope you like it ❤️✌🏻.  
   
 
 <div align="right">اینم از یک انیمیشن و افکت خفن برای دکمه های دانلود بسیار راحت اما کاربردی و جذاب. امیدوارم که خوشتون بیاد ❤️🙋🏻.</div>  
