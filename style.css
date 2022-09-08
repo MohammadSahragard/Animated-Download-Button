@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------- body element's */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23232f;
+}
+
+.button {
+    all: unset;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 5px;
+    outline: 2px solid royalblue;
+    outline-offset: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.button:active {
+    transform: scale(0.9);
+}
+
+.progress {
+    position: absolute;
+    inset: -20px 0 0 0;
+    background-image: linear-gradient(to top, royalblue, deeppink);
+    clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 0 100%);
+}
+.value {
+    position: relative;
+}
+
+
+.button.start-download {
+    width: 50px;
+    border-radius: 50%;
+}
